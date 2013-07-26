@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;}
+
+html, body {
+  font-size:14px;
+  line-height:20px;
+	font-family: "Arial","Helvetica", "Lucida Grande";
+	color:#ccc;
+  height:100%;
+  position:relative; }
+  
+html {
+  background:#000 url(../img/backgroundBody.png) repeat-x left top; }
+  
+body {
+  width:100%;
+  min-width:950px;
+  margin: 0px auto;
+  background:url(../img/backgroundHeader.jpg) no-repeat center top; }
+
+h1, h2, h3, h4, h5 {
+  color:#ffd84c;
+  font-family: "Trebuchet MS", "Trebuchet"; }
+
+p {
+  margin-bottom:6px;}
+
+a {
+  text-decoration:none;
+  color:#ffd84c;}
+a:hover {
+  text-decoration:underline; }
+
+
+
+/************************ Main Structure */
+#contentWrapper {
+  position:relative;
+  width:890px;
+  min-height:100%;
+  height:auto;
+  margin:0px auto 0px auto; }
+
+#headerContainer {
+  position:absolute;
+  left:0px;
+  top:340px; 
+  width:890px;
+  height:100px;}
+  
+#contentContainer {
+  position:absolute;
+  left:0px;
+  top:450px;
+  padding-bottom:100px; }
+  
+  
+  
+/************************ Top Navi */
+#navigation {
+  position:absolute;
+  left:575px;
+  top:10px;
+  color:#999;
+  font-size:16px;
+  line-height:25px;
+  text-align:center; }
+
+#navigation li {
+  width:78px;
+  height:33px;
+  list-style-type:none;
+  list-style-image:none;
+  margin:0px;
+  padding:0px;
+  float:left;
+  background:url(../img/naviLineTop.png) no-repeat center top; }
+#navigation li a {
+  color:#999; }
+  
+
+.learnParagraph {
+  line-height:50px;
+  padding-left:35px;
+  background:url(../img/iconLearn.png) no-repeat left center;}
+.blogParagraph {
+  line-height:50px;
+  padding-left:35px;
+  background:url(../img/iconBlog.png) no-repeat left center;}
+.twitterParagraph {
+  line-height:50px;
+  padding-left:35px;
+  background:url(../img/iconTwitter.png) no-repeat left center;}
