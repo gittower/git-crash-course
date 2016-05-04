@@ -2,3 +2,4 @@
 Crash course project for learning version control with Git
 ```&```  ```<``` ```>``` 
 `&nbsp;`
+`&#160;`
